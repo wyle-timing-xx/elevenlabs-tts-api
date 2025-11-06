@@ -1,0 +1,37 @@
+{
+  "name": "elevenlabs-tts-api",
+  "version": "1.0.0",
+  "description": "一个高质量的文字转语音API服务，基于ElevenLabs AI和Koa框架，支持流式传输",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "keywords": [
+    "elevenlabs",
+    "tts",
+    "text-to-speech",
+    "koa",
+    "api",
+    "streaming"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.1",
+    "koa-logger": "^3.2.1",
+    "form-data": "^4.0.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}
